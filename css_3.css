@@ -1,0 +1,44 @@
+body {
+    font-size: 24px;
+}
+
+/* Цвета текста */
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+
+/* Стили текста */
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Стили для списка */
+li.green {
+    color: green;
+}
+li.red {
+    color: red;
+}
+li.blue {
+    color: blue;
+}
+
+/* Стили для подсписка (оставляем такие же как у основного списка) */
+ul ol li.red {
+    color: red;
+}
+ul ol li.green {
+    color: green;
+}
+ul ol li.blue {
+    color: blue;
+}
